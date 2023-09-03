@@ -1,0 +1,87 @@
+*{
+    color: wheat;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.nav-links{
+    color: white;
+}
+/* Add a bottom border to the navbar links, initially hidden */
+a.nav-link {
+    color: white;
+    padding-bottom: 10px;
+    transition: border-color 0.3s ease;
+    border-bottom: 2px solid transparent;
+}
+
+/* Style the underline on hover */
+a.nav-link:hover {
+    color: white;
+    border-color: aquamarine; /* Change to your desired hover color */
+}
+
+#navbar{
+    
+    margin: auto 0;
+    background-color: rgb(17 24 39 / 60%);
+    backdrop-filter: blur(12px);
+
+    /* opacity: 0.33; */
+    
+    /* box-shadow: 10px 5px 5px black; */
+
+}
+
+.home-page{
+    height: 1000px;
+    backdrop-filter: blur(20px);
+    padding: 96px 0 16px 16px;
+}
+
+#bg{
+    /* height: 5000px;
+    padding-top: 4rem; */
+    /* background-image: url('/static/media/background.jpg'); */
+    background-color: #111827;
+    background-image: url('/static/media/rays.426980b9.png');
+    background-repeat: space repeat;
+    background-position: center;
+    
+}
+
+/* NAV BAR */
+.navbar-brand{
+    font-size: 2rem;
+}
+
+/* HEADER */
+._hello-text h1{
+    font-size: 4rem;
+}
+
+._hello-text h1 .hello{
+    color: aquamarine;
+    transition: border-color 0.3s ease;
+    border-bottom: 2px solid transparent;
+}
+
+._hello-text h2:hover{
+    border-color: white;
+}
+
+._avatar img{
+    width: 54%;
+    height: auto;
+    border-radius: 200px;
+    transition: filter-shadow 0.5s ease-in-out;
+
+    filter: grayscale(100%);
+    
+
+}
+
+._avatar img:hover{
+    filter: drop-shadow(0 0 0.75rem rgb(17, 24, 33, 40%));
+}
