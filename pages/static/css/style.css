@@ -1,3 +1,6 @@
+/* import icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
 *{
     color: wheat;
 }
@@ -84,4 +87,58 @@ a.nav-link:hover {
 
 ._avatar img:hover{
     filter: drop-shadow(0 0 0.75rem rgb(17, 24, 33, 40%));
+}
+
+
+/* READ MY BLOG & LEARN MORE ABOUT ME BUTTONS */
+.btn{
+    font-weight: 600;
+}
+.read-my-blog{
+    background-color: white;
+    color: #111827;
+    border-color: white;
+}
+
+.read-my-blog:hover{
+    background-color: transparent;
+    color: white;
+}
+
+
+
+/* BUTTON ANIMATION */
+/* LEARN MORE ABOUT ME */
+.initial-icon::before{
+    content: "\F46B";
+    font-family: 'Bootstrap Icons';
+}
+
+.hover-icon::before{
+    content: "\F468";
+}
+
+.icon-button{
+    transition: 0.3s;
+}
+
+ .icon-button:hover .initial-icon::before{
+    content: "\F468";
+}
+
+/* READ MY BLOG */
+
+.initial-icon2::before{
+    color: #111827;
+    font-weight: 600;
+    content: '\F135';
+}
+
+.icon-button2{
+    transition: 0.3s;
+}
+
+.icon-button2:hover .initial-icon2::before{
+    color: white;
+    content: "\F138";
 }
